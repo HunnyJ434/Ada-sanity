@@ -41,6 +41,7 @@ import {shopifyProductType} from './objects/shopify/shopifyProductType'
 import {shopifyProductVariantType} from './objects/shopify/shopifyProductVariantType'
 import {spotType} from './objects/hotspot/spotType'
 
+
 // Objects used as annotations must be imported first
 const annotations = [linkEmailType, linkExternalType, linkInternalType, linkProductType]
 
@@ -95,8 +96,15 @@ import {colorThemeType} from './documents/colorTheme'
 import {pageType} from './documents/page'
 import {productType} from './documents/product'
 import {productVariantType} from './documents/productVariant'
-
-const documents = [collectionType, colorThemeType, pageType, productType, productVariantType]
+import { privacyPolicy } from './documents/privacyPolicy';
+import { refundPolicy } from './documents/refundPolicy';
+import { shippingPolicy } from './documents/shippingPolicy';
+import { termsOfService } from './documents/termsOfService';
+import { socialMediaLinks } from './documents/socialMedia';
+import { braids} from "./documents/collections-braids";
+import { crochets} from "./documents/collections-crochets";
+const documents = [collectionType, colorThemeType, pageType, productType, productVariantType, privacyPolicy, refundPolicy, shippingPolicy
+                  , termsOfService, socialMediaLinks, braids, crochets]
 
 import {homeType} from './singletons/homeType'
 import {settingsType} from './singletons/settingsType'
