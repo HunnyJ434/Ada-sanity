@@ -19,7 +19,8 @@ export const blogs = defineType({
       {
         name: 'description',
         title: 'Description',
-        type: 'text',
+        type: 'array',
+        of: [{ type: 'block' }],
       },
     ],
   });
