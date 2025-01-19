@@ -103,8 +103,12 @@ import { termsOfService } from './documents/termsOfService';
 import { socialMediaLinks } from './documents/socialMedia';
 import { braids} from "./documents/collections-braids";
 import { crochets} from "./documents/collections-crochets";
+import { HumanHairBlend} from "./documents/collections-human-hair-blend";
+import { luxurySyntheticWigs} from "./documents/collections-luxury-synthetic-wigs";
+import { luxuryWigs} from "./documents/collections-luxury-wigs";
+import { SyntheticWeave} from "./documents/collections-synthetic-weave";
 const documents = [collectionType, colorThemeType, pageType, productType, productVariantType, privacyPolicy, refundPolicy, shippingPolicy
-                  , termsOfService, socialMediaLinks, braids, crochets]
+                  , termsOfService, socialMediaLinks, braids, crochets, HumanHairBlend, luxurySyntheticWigs, luxuryWigs, SyntheticWeave]
 
 import {homeType} from './singletons/homeType'
 import {settingsType} from './singletons/settingsType'
