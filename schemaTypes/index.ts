@@ -107,8 +107,11 @@ import { HumanHairBlend} from "./documents/collections-human-hair-blend";
 import { luxurySyntheticWigs} from "./documents/collections-luxury-synthetic-wigs";
 import { luxuryWigs} from "./documents/collections-luxury-wigs";
 import { SyntheticWeave} from "./documents/collections-synthetic-weave";
+import { wholesale} from "./documents/wholesale";
+import {blogs} from "./documents/blogs";
 const documents = [collectionType, colorThemeType, pageType, productType, productVariantType, privacyPolicy, refundPolicy, shippingPolicy
-                  , termsOfService, socialMediaLinks, braids, crochets, HumanHairBlend, luxurySyntheticWigs, luxuryWigs, SyntheticWeave]
+                  , termsOfService, socialMediaLinks, braids, crochets, HumanHairBlend, luxurySyntheticWigs, luxuryWigs, SyntheticWeave, wholesale
+                  , blogs]
 
 import {homeType} from './singletons/homeType'
 import {settingsType} from './singletons/settingsType'
