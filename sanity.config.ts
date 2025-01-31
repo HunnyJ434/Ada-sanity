@@ -28,7 +28,13 @@ export default defineConfig({
     media(),
     ...(isDev ? devOnlyPlugins : []),
   ],
-
+  webpack: (config: { ignoreWarnings: ((warning: any) => any)[] }) => {
+    config.ignoreWarnings = [
+      (warning: { message: string | string[] }) =>
+        warning.message.includes('"useDebugValue" is imported from external module'),
+    ];
+    return config;
+  },
   schema: {
     types: schemaTypes,
   },

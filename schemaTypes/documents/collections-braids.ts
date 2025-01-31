@@ -32,6 +32,12 @@ export const braids = defineType({
       type: 'number',
     },
     {
+      name: 'size',
+      title: 'Size',
+      type: 'array',
+      of: [{ type: 'string' }],
+    },
+    {
       name: 'colors',
       title: 'Colors',
       type: 'array',
